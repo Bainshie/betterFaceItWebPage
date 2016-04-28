@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Better FaceIt</title>
+    <script src="betterFaceIt.js"></script>
+  </head>
+  <body>
+    <h1>Better FaceIt Team List</h1>
+	<input type="text" name="tornId" value="e20285ec-03dc-45a9-b942-c06bb638137e" size=100 />
+	<table>
+		<tr>
+			<td>Team name filter: </td>
+			<td><input type="text" name="byName"></td>
+		</tr>
+		<tr>
+			<td>Player name filter: </td>
+			<td><input type="text" name="byPlayerName"/></td>
+		</tr>
+		<tr>
+			<td>Country filter: </td>
+			<td><input type="text" name="byCountry"/></td>
+			<td><select name="byCountryNumber">
+				  <option value="1">1</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				  <option value="5">5</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Steam id filter: </td>
+			<td><input type="text" name="bySteamId"/></td>
+		</tr>
+		<tr>
+			<td><button id="getData">Get bracket data</button></td>
+		</tr>
+	</table>
+   	<div id ='contentContainer'></div>
+  </body>
+</html>
